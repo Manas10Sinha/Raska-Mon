@@ -279,10 +279,10 @@ const TermsConditionsPage = () => {
         </a>
         ) or Mr. Saurabh Kumar (
         <a
-          href="mailto:info@wellnesshubindia.com"
+          href="mailto:info@raskamon.com"
           className="text-purple-600 underline"
         >
-          info@wellnesshubindia.com
+          info@raskamon.com
         </a>
         ) for grievances, with resolution within one month.
       </p>
