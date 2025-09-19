@@ -33,9 +33,12 @@ const Footer = () => {
     { name: "Contact Us", path: "/contact" },
     {
       name: "Privacy Policy",
-      path: "https://merchant.razorpay.com/policy/PweTRtIOPlC8KZ/privacy",
-      external: true,
+      //path: "https://merchant.razorpay.com/policy/PweTRtIOPlC8KZ/privacy",
+      //external: true,
+      path: "/privacy-policy",
     },
+    { name: "Refund Policy", path: "/refund-policy" },
+    { name: "Terms and conditions", path: "/terms&conditions" },
   ];
 
   const services = [
@@ -221,7 +224,7 @@ const Footer = () => {
                 <img
                   src="raska_monLogo.jpg"
                   alt="Raska Mon Logo"
-                  className="h-40 transition-all duration-300"
+                  className="h-28 w-auto transition-all duration-300"
                 />
               </div>
               <p className="text-purple-200 leading-relaxed mb-6">

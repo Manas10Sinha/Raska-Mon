@@ -36,6 +36,9 @@ import WriteBlog from "./pages/WriteBlog";
 import AIMoodTracker from "./pages/AIMoodTracker";
 import Notifications from "./pages/Notifications";
 import UserDashboard from "./components/UserDashboard/UserDashboard";
+import PrivacyPage from "./pages/PrivacyPage";
+import RefundPage from "./pages/RefundPage";
+import TermsConditionsPage from "./pages/Terms&ConditionsPage";
 // Lazy load components
 const Doctors = lazy(() => import("./pages/Doctors"));
 
@@ -101,6 +104,9 @@ const App = () => {
             <Route path="/dashboard" element={<UserDashboard />} />
 
             <Route path="/contact" element={<Contact />} />
+            <Route path="/privacy-policy" element={<PrivacyPage />} />
+            <Route path="/refund-policy" element={<RefundPage />} />
+            <Route path="/terms&conditions" element={<TermsConditionsPage />} />
             <Route path="/my-profile" element={<MyProfile />} />
             <Route path="/my-appointments" element={<MyAppointments />} />
             <Route path="/appointment/:docId" element={<Appointment />} />

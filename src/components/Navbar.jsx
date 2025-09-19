@@ -121,7 +121,7 @@ const Navbar = () => {
             <img
               src="raska_monLogo.jpg"
               alt="Logo"
-              className="h-[4.5rem] w-auto object-contain transition-all duration-300 lg:h-[4.5rem]"
+              className="h-[4.7rem] w-auto object-contain transition-all duration-300 lg:h-[4.7rem]"
             />
           </motion.div>
 
