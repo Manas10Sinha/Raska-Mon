@@ -1,6 +1,15 @@
 const TermsConditionsPage = () => {
   return (
     <div className="prose max-w-4xl mx-auto px-4 py-6">
+      {/* Main Heading */}
+      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 text-center">
+        Terms & Conditions for{" "}
+        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+          Raska Mon
+        </span>
+      </h1>
+
+      {/* Definition */}
       <h2 className="text-2xl font-semibold text-gray-900 mt-6">Definition</h2>
 
       <h3 className="text-xl font-semibold text-gray-900 mt-4">Company</h3>
@@ -42,9 +51,10 @@ const TermsConditionsPage = () => {
       <p>
         Raska Mon is a psychological wellness platform delivering emotional
         wellness products and Services to individuals and organizations. These
-        include, but are not limited to:
+        include, but are not limited to corporate wellness programs for
+        employees and offerings such as:
       </p>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc list-inside mt-2">
         <li>
           Face-to-face consultations with authorized Psychological Wellness
           Professionals in India (one-to-one or group)
@@ -124,18 +134,18 @@ const TermsConditionsPage = () => {
         You may terminate this Agreement by settling outstanding payments and
         notifying us (via{" "}
         <a
-          href="mailto:support@moodmantra.com"
+          href="mailto:support@raskamon.com"
           className="text-purple-600 underline"
         >
           support@raskamon.com
-        </a>
+        </a>{" "}
         or{" "}
         <a
           href="mailto:info@wellnesshubindia.com"
           className="text-purple-600 underline"
         >
           info@wellnesshubindia.com
-        </a>
+        </a>{" "}
         for direct users, or through your organization if applicable). We will
         process account deletion requests within 14 working days, per our
         Privacy Policy. We may terminate the Agreement without reason. Payments
@@ -143,7 +153,7 @@ const TermsConditionsPage = () => {
       </p>
 
       <h3 className="text-xl font-semibold text-gray-900 mt-4">Terms of Use</h3>
-      <ul className="list-disc list-inside">
+      <ul className="list-disc list-inside mt-2">
         <li>
           Be 18+ (or have parental consent if under 18), legally competent, and
           compliant with laws
@@ -272,7 +282,7 @@ const TermsConditionsPage = () => {
       <p>
         Contact Mr. Dhirendra (
         <a
-          href="mailto:support@moodmantra.com"
+          href="mailto:support@raskamon.com"
           className="text-purple-600 underline"
         >
           support@raskamon.com
@@ -294,11 +304,10 @@ const TermsConditionsPage = () => {
         Contact Information
       </h3>
       <p>
-        Registered Address: Desq Gurgaon
-        <br />
+        Registered Address: Desq Gurgaon <br />
         Email:{" "}
         <a
-          href="mailto:support@moodmantra.com"
+          href="mailto:support@raskamon.com"
           className="text-purple-600 underline"
         >
           support@raskamon.com
