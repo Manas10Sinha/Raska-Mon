@@ -116,12 +116,12 @@ const Navbar = () => {
           <motion.div
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
-            className="flex items-center py-4"
+            className="flex items-center py-4 -mt-1"
           >
             <img
               src="raska_monLogo.jpg"
               alt="Logo"
-              className="h-[4.7rem] w-auto object-contain transition-all duration-300 lg:h-[4.7rem]"
+              className="h-[4.2rem] w-auto object-contain transition-all duration-300 lg:h-[4.2rem]"
             />
           </motion.div>
 

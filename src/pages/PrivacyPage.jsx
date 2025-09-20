@@ -389,7 +389,7 @@ const PrivacyPage = () => {
             Registered Address: Desq, Gurgaon <br />
             Email:{" "}
             <a
-              href="mailto:support@raskamon.com"
+              href="mailto:support@moodmantra.com"
               className="text-purple-600 underline"
             >
               support@raskamon.com

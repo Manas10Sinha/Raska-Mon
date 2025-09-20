@@ -224,7 +224,7 @@ const Footer = () => {
                 <img
                   src="raska_monLogo.jpg"
                   alt="Raska Mon Logo"
-                  className="h-28 w-auto transition-all duration-300"
+                  className="h-[4.5rem] w-auto transition-all duration-300"
                 />
               </div>
               <p className="text-purple-200 leading-relaxed mb-6">
