@@ -1,13 +1,13 @@
 const TermsConditionsPage = () => {
   return (
-    <div className="prose max-w-4xl mx-auto px-4 py-6">
-      {/* Main Heading */}
-      <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 text-center">
-        Terms & Conditions for{" "}
-        <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-          Raska Mon
-        </span>
-      </h1>
+   <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-indigo-100 py-20 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-lg p-10 border border-purple-100 space-y-6 prose">
+        <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 text-center">
+          Terms & Conditions for{" "}
+          <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
+            Raska Mon
+          </span>
+        </h1>
 
       {/* Definition */}
       <h2 className="text-2xl font-semibold text-gray-900 mt-6">Definition</h2>
@@ -314,6 +314,7 @@ const TermsConditionsPage = () => {
         </a>
       </p>
     </div>
+     </div>
   );
 };
 
