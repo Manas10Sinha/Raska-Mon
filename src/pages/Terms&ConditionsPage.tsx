@@ -1,10 +1,6 @@
 const TermsConditionsPage = () => {
   return (
-<<<<<<< HEAD
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-indigo-100 py-20 px-4 sm:px-6 lg:px-8">
-=======
-   <div className="min-h-screen bg-gradient-to-br from-slate-50 via-purple-50 to-indigo-100 py-20 px-4 sm:px-6 lg:px-8">
->>>>>>> 0d6683c3bf0432697dcf84787997d6ae2c80c0d2
       <div className="max-w-5xl mx-auto bg-white rounded-3xl shadow-lg p-10 border border-purple-100 space-y-6 prose">
         <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6 text-center">
           Terms & Conditions for{" "}
@@ -338,7 +334,6 @@ const TermsConditionsPage = () => {
         </p>
       </div>
     </div>
-     </div>
   );
 };
 
