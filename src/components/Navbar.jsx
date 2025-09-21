@@ -119,7 +119,7 @@ const Navbar = () => {
             className="flex items-center py-4 -mt-1"
           >
             <img
-              src="raska_monLogo.jpg"
+              src="raskamonLogo2.jpg"
               alt="Logo"
               className="h-[4.2rem] w-auto object-contain transition-all duration-300 lg:h-[4.2rem]"
             />
