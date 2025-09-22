@@ -54,28 +54,28 @@ const Services = () => {
         "Addiction—whether to substances like alcohol or behaviors like screentime—traps you in a cycle that dims your life’s light. Counseling helps you reclaim control and find freedom. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Uncover Triggers 🧠",
+          title: "Uncover Triggers",
           description: "Pinpoint what drives your addiction with support.",
         },
         {
-          title: "Build Healthy Habits 🌱",
+          title: "Build Healthy Habits",
           description: "Replace harmful patterns with positive routines.",
         },
         {
-          title: "Shift Mindset 🔄",
+          title: "Shift Mindset ",
           description: "Use CBT to conquer cravings and regain strength.",
         },
         {
-          title: "Lean on Support 🧘",
+          title: "Lean on Support ",
           description: "Find power in therapy and groups for accountability.",
         },
         {
-          title: "Live Fully 🌟",
+          title: "Live Fully ",
           description: "Rediscover joy without dependency’s shadow.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to break free and thrive. You’ve got this! 💪 #BreakTheCycle",
+        "Counseling empowers you to break free and thrive. You’ve got this!  #BreakTheCycle",
       color: "from-purple-500 to-pink-500",
     },
     // 2
@@ -86,28 +86,28 @@ const Services = () => {
         "ADHD can make focus and calm feel out of reach, affecting kids’ school and social life. Counseling turns challenges into strengths. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Understand ADHD 🧠",
+          title: "Understand ADHD ",
           description: "Learn your child’s unique wiring to guide them.",
         },
         {
-          title: "Create Structure 🌱",
+          title: "Create Structure ",
           description: "Build routines to boost focus and ease chaos.",
         },
         {
-          title: "Celebrate Wins 🔄",
+          title: "Celebrate Wins ",
           description: "Use positive reinforcement to spark confidence.",
         },
         {
-          title: "Teach Coping Tools 🧘",
+          title: "Teach Coping Tools ",
           description: "Help kids manage energy with mindfulness.",
         },
         {
-          title: "Shine Bright 🌟",
+          title: "Shine Bright ",
           description: "Empower your child to thrive their way.",
         },
       ],
       whoItsFor:
-        "Counseling helps kids with ADHD soar. You’ve got this! 💪 #ThriveWithADHD",
+        "Counseling helps kids with ADHD soar. You’ve got this!  #ThriveWithADHD",
       color: "from-orange-500 to-red-500",
     },
     // 3
@@ -118,28 +118,28 @@ const Services = () => {
         "Life’s big shifts—job loss, divorce, or moving—can stir sadness and anxiety. Adjustment disorder feels heavy, but counseling helps you adapt. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Identify Stressors 🧠",
+          title: "Identify Stressors ",
           description: "Uncover what’s overwhelming with guidance.",
         },
         {
-          title: "Ease the Strain 🧘",
+          title: "Ease the Strain ",
           description: "Learn tools to manage emotional turbulence.",
         },
         {
-          title: "Adapt Confidently 🌱",
+          title: "Adapt Confidently ",
           description: "Build skills to navigate new realities.",
         },
         {
-          title: "Find Stability 🔄",
+          title: "Find Stability ",
           description: "Regain balance through small steps.",
         },
         {
-          title: "Move Forward 🌟",
+          title: "Move Forward ",
           description: "Embrace change with renewed hope.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to thrive through transitions. You’ve got this! 💪 #AdaptAndGrow",
+        "Counseling empowers you to thrive through transitions. You’ve got this!  #AdaptAndGrow",
       color: "from-green-500 to-emerald-500",
     },
     // 4
@@ -150,28 +150,28 @@ const Services = () => {
         "A breakup or separation can break your heart, leaving loneliness and doubt. Counseling helps you heal and rebuild. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Process Pain 🧠",
+          title: "Process Pain ",
           description: "Share your grief in a safe space.",
         },
         {
-          title: "Build Resilience 🧘",
+          title: "Build Resilience ",
           description: "Learn tools to handle emotional waves.",
         },
         {
-          title: "Rediscover Worth 🌱",
+          title: "Rediscover Worth ",
           description: "Boost self-esteem to stand tall alone.",
         },
         {
-          title: "Let Go Healthily 🔄",
+          title: "Let Go Healthily ",
           description: "Move on without lingering hurt.",
         },
         {
-          title: "Embrace Tomorrow 🌟",
+          title: "Embrace Tomorrow ",
           description: "Step into a brighter future with confidence.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to heal and shine. You’ve got this! 💪 #HealWithHeart",
+        "Counseling empowers you to heal and shine. You’ve got this!  #HealWithHeart",
       color: "from-pink-500 to-rose-500",
     },
     // 5
@@ -182,28 +182,28 @@ const Services = () => {
         "Grief from loss—whether a loved one or a life change—brings waves of pain and emptiness. Counseling helps you navigate it. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Express Your Loss 🧠",
+          title: "Express Your Loss ",
           description: "Share feelings in a caring, safe space.",
         },
         {
-          title: "Manage Emotions 🧘",
+          title: "Manage Emotions ",
           description: "Handle grief’s ups and downs with support.",
         },
         {
-          title: "Find Meaning 🌱",
+          title: "Find Meaning ",
           description: "Honor your loss while healing.",
         },
         {
-          title: "Adapt Gently 🔄",
+          title: "Adapt Gently ",
           description: "Adjust to life’s changes at your pace.",
         },
         {
-          title: "Rediscover Joy 🌟",
+          title: "Rediscover Joy ",
           description: "Build a hopeful, meaningful future.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to find peace after loss. You’ve got this! 💪 #HealThroughGrief",
+        "Counseling empowers you to find peace after loss. You’ve got this!  #HealThroughGrief",
       color: "from-teal-500 to-green-500",
     },
     // 6
@@ -214,28 +214,28 @@ const Services = () => {
         "Burnout leaves you drained, detached, and unmotivated from endless stress. Counseling helps you rediscover your spark. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Spot Stressors 🧠",
+          title: "Spot Stressors ",
           description: "Uncover what’s draining you with guidance.",
         },
         {
-          title: "Set Boundaries 🚧",
+          title: "Set Boundaries",
           description: "Protect your energy without guilt.",
         },
         {
-          title: "Recharge Daily 🧘",
+          title: "Recharge Daily ",
           description: "Build self-care habits to restore balance.",
         },
         {
-          title: "Shift Mindset 🔄",
+          title: "Shift Mindset ",
           description: "Reframe thoughts to spark motivation.",
         },
         {
-          title: "Thrive Again 🌟",
+          title: "Thrive Again ",
           description: "Live with passion and purpose.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to rise above burnout. You’ve got this! 💪 #RiseAboveBurnout",
+        "Counseling empowers you to rise above burnout. You’ve got this!  #RiseAboveBurnout",
       color: "from-indigo-500 to-purple-500",
     },
     // 7
@@ -246,28 +246,28 @@ const Services = () => {
         "Depression casts a heavy shadow, stealing joy and energy, making life feel empty. Counseling helps you break free. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Share Safely 🧠",
+          title: "Share Safely ",
           description: "Express struggles in a judgment-free space.",
         },
         {
-          title: "Uncover Roots 🌱",
+          title: "Uncover Roots ",
           description: "Explore causes like trauma with support.",
         },
         {
-          title: "Challenge Darkness 🔄",
+          title: "Challenge Darkness ",
           description: "Use CBT to shift to hopeful thoughts.",
         },
         {
-          title: "Build Small Wins 🧘",
+          title: "Build Small Wins ",
           description: "Create routines to regain control.",
         },
         {
-          title: "Rediscover Joy 🌟",
+          title: "Rediscover Joy ",
           description: "Find meaning in life’s small moments.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to lift the fog and shine. You’ve got this! 💪 #HopeThroughHealing",
+        "Counseling empowers you to lift the fog and shine. You’ve got this!  #HopeThroughHealing",
       color: "from-blue-500 to-cyan-500",
     },
     // 8
@@ -278,28 +278,28 @@ const Services = () => {
         "Anger can burn through relationships and peace, leaving guilt behind. Counseling turns it into constructive energy. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Know Triggers 🧠",
+          title: "Know Triggers ",
           description: "Pinpoint what sparks anger with support.",
         },
         {
-          title: "Pause & Breathe 🧘",
+          title: "Pause & Breathe ",
           description: "Use mindfulness to cool off fast.",
         },
         {
-          title: "Express Better 🔄",
+          title: "Express Better ",
           description: "Share feelings without sparking conflict.",
         },
         {
-          title: "Set Boundaries 🌱",
+          title: "Set Boundaries ",
           description: "Channel anger to protect your peace.",
         },
         {
-          title: "Build Harmony 🌟",
+          title: "Build Harmony ",
           description: "Foster healthier, calmer connections.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to master anger and find calm. You’ve got this! 💪 #MasterYourCalm",
+        "Counseling empowers you to master anger and find calm. You’ve got this!  #MasterYourCalm",
       color: "from-red-500 to-orange-500",
     },
     // 9
@@ -310,28 +310,28 @@ const Services = () => {
         "Anxiety feels like a relentless storm—racing thoughts and dread weighing you down. Counseling helps you find peace. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Spot Fears 🧠",
+          title: "Spot Fears ",
           description: "Identify what fuels worry with guidance.",
         },
         {
-          title: "Soothe Nerves 🧘",
+          title: "Soothe Nerves ",
           description: "Learn breathing to calm the chaos.",
         },
         {
-          title: "Reframe Thoughts 🔄",
+          title: "Reframe Thoughts ",
           description: "Shift fears to clarity with cognitive tools.",
         },
         {
-          title: "Face Challenges 🌱",
+          title: "Face Challenges ",
           description: "Tackle anxieties step-by-step.",
         },
         {
-          title: "Live Confidently 🌟",
+          title: "Live Confidently ",
           description: "Thrive beyond worry’s grip.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to quiet the storm and shine. You’ve got this! 💪 #ConquerAnxiety",
+        "Counseling empowers you to quiet the storm and shine. You’ve got this!  #ConquerAnxiety",
       color: "from-blue-400 to-indigo-500",
     },
     // 10
@@ -342,28 +342,28 @@ const Services = () => {
         "Parenting is a rollercoaster of love and doubt—wondering if you’re enough can weigh heavy. Counseling helps you parent with joy. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Know Your Child 🧠",
+          title: "Know Your Child ",
           description: "Understand their needs to foster growth.",
         },
         {
-          title: "Connect Deeply 🗣",
+          title: "Connect Deeply ",
           description: "Build trust through open talks.",
         },
         {
-          title: "Guide with Love 🌱",
+          title: "Guide with Love ",
           description: "Discipline to inspire, not fear.",
         },
         {
-          title: "Ease Stress 🧘",
+          title: "Ease Stress ",
           description: "Find balance to stay present.",
         },
         {
-          title: "Strengthen Bonds 🌟",
+          title: "Strengthen Bonds ",
           description: "Create a loving, lasting connection.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to parent with confidence. You’ve got this! 💪 #ParentWithLove",
+        "Counseling empowers you to parent with confidence. You’ve got this!  #ParentWithLove",
       color: "from-yellow-500 to-orange-500",
     },
     // 11
@@ -374,28 +374,28 @@ const Services = () => {
         "Body image struggles—sparked by criticism or impossible standards—can make you feel unworthy. Counseling helps you embrace your true self. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Challenge Self-Talk 🧠",
+          title: "Challenge Self-Talk ",
           description: "Shift negative thoughts about your body.",
         },
         {
-          title: "Value Strength 🔄",
+          title: "Value Strength ",
           description: "Focus on what your body does, not looks.",
         },
         {
-          title: "Defy Norms 🌱",
+          title: "Defy Norms ",
           description: "Break free from society’s beauty traps.",
         },
         {
-          title: "Nurture Self-Love 🧘",
+          title: "Nurture Self-Love ",
           description: "Build habits to boost confidence.",
         },
         {
-          title: "Shine as You 🌟",
+          title: "Shine as You ",
           description: "Embrace your unique beauty boldly.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to love yourself fully. You’ve got this! 💪 #LoveYourSelf",
+        "Counseling empowers you to love yourself fully. You’ve got this!  #LoveYourSelf",
       color: "from-pink-500 to-rose-500",
     },
     // 12
@@ -406,28 +406,28 @@ const Services = () => {
         "Choosing a career can feel like a maze—self-doubt and pressure clouding your way. Counseling lights a path to purpose. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Discover Strengths 🧠",
+          title: "Discover Strengths ",
           description: "Uncover passions with guided reflection.",
         },
         {
-          title: "Set Bold Goals 🌱",
+          title: "Set Bold Goals ",
           description: "Map steps to chase your dreams.",
         },
         {
-          title: "Overcome Doubt 🔄",
+          title: "Overcome Doubt ",
           description: "Turn fear into a growth mindset.",
         },
         {
-          title: "Handle Stress 🧘",
+          title: "Handle Stress ",
           description: "Navigate work challenges confidently.",
         },
         {
-          title: "Own Your Future 🌟",
+          title: "Own Your Future ",
           description: "Pursue a career that fits you.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to find your true path. You’ve got this! 💪 #FindYourPath",
+        "Counseling empowers you to find your true path. You’ve got this!  #FindYourPath",
       color: "from-indigo-500 to-blue-500",
     },
     // 13
@@ -438,28 +438,28 @@ const Services = () => {
         "Conflicts drain energy, creating resentment and rifts in relationships. Counseling helps you resolve disputes with empathy. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "See All Sides 🧠",
+          title: "See All Sides ",
           description: "Understand perspectives with guidance.",
         },
         {
-          title: "Listen Better 🗣",
+          title: "Listen Better ",
           description: "Build trust through active listening.",
         },
         {
-          title: "Stay Calm 🧘",
+          title: "Stay Calm ",
           description: "Manage emotions to avoid escalation.",
         },
         {
-          title: "Solve Fairly 🌱",
+          title: "Solve Fairly ",
           description: "Find solutions that respect everyone.",
         },
         {
-          title: "Strengthen Bonds 🌟",
+          title: "Strengthen Bonds ",
           description: "Foster peace and deeper connections.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to turn conflicts into growth. You’ve got this! 💪 #ResolveWithEmpathy",
+        "Counseling empowers you to turn conflicts into growth. You’ve got this!  #ResolveWithEmpathy",
       color: "from-yellow-400 to-yellow-600",
     },
     // 14
@@ -470,28 +470,28 @@ const Services = () => {
         "Low confidence can make you feel small, hesitant to chase dreams. Counseling helps you rediscover your strength. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Find Your Strengths 🧠",
+          title: "Find Your Strengths ",
           description: "Uncover what makes you unique.",
         },
         {
-          title: "Challenge Doubt 🔄",
+          title: "Challenge Doubt ",
           description: "Shift self-doubt to self-belief.",
         },
         {
-          title: "Step Out Boldly 🌱",
+          title: "Step Out Boldly ",
           description: "Take risks with guided support.",
         },
         {
-          title: "Celebrate Wins 🧘",
+          title: "Celebrate Wins ",
           description: "Build confidence through small victories.",
         },
         {
-          title: "Own Your Power 🌟",
+          title: "Own Your Power ",
           description: "Live with assurance and courage.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to shine with confidence. You’ve got this! 💪 #BeConfident",
+        "Counseling empowers you to shine with confidence. You’ve got this!  #BeConfident",
       color: "from-green-500 to-teal-500",
     },
     // 15
@@ -502,28 +502,28 @@ const Services = () => {
         "Struggling with focus or memory can frustrate work or studies. Counseling clears the fog and boosts your mental edge. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Uncover Causes 🧠",
+          title: "Uncover Causes ",
           description: "Pinpoint stress affecting your focus.",
         },
         {
-          title: "Train Your Brain 🌱",
+          title: "Train Your Brain ",
           description: "Use exercises to sharpen memory.",
         },
         {
-          title: "Stay Present 🧘",
+          title: "Stay Present ",
           description: "Learn mindfulness to boost clarity.",
         },
         {
-          title: "Build Routines 🔄",
+          title: "Build Routines ",
           description: "Reduce mental clutter with structure.",
         },
         {
-          title: "Take Control 🌟",
+          title: "Take Control ",
           description: "Tackle tasks with a sharper mind.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to master focus and thrive. You’ve got this! 💪 #FocusWithClarity",
+        "Counseling empowers you to master focus and thrive. You’ve got this!  #FocusWithClarity",
       color: "from-purple-400 to-indigo-500",
     },
     // 16
@@ -534,28 +534,28 @@ const Services = () => {
         "Students face a storm of pressures—exams, peers, and self-doubt—dimming motivation. Counseling helps you shine through. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Tame Stress 🧘",
+          title: "Tame Stress ",
           description: "Handle exam pressure with calm.",
         },
         {
-          title: "Boost Skills 🧠",
+          title: "Boost Skills ",
           description: "Master study and time management tricks.",
         },
         {
-          title: "Build Confidence 🌱",
+          title: "Build Confidence ",
           description: "Grow self-esteem to face challenges.",
         },
         {
-          title: "Handle Setbacks 🔄",
+          title: "Handle Setbacks ",
           description: "Turn failures into growth.",
         },
         {
-          title: "Succeed Brightly 🌟",
+          title: "Succeed Brightly ",
           description: "Thrive academically and beyond.",
         },
       ],
       whoItsFor:
-        "Counseling empowers students to conquer and soar. You’ve got this! 💪 #ThriveInSchool",
+        "Counseling empowers students to conquer and soar. You’ve got this!  #ThriveInSchool",
       color: "from-blue-400 to-blue-600",
     },
     // 17
@@ -566,28 +566,28 @@ const Services = () => {
         "Juggling work and life can leave you drained, guilty, or stressed. Counseling helps you find balance and joy. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Set Boundaries 🚧",
+          title: "Set Boundaries ",
           description: "Prioritize without guilt or overwhelm.",
         },
         {
-          title: "Ease Stress 🧘",
+          title: "Ease Stress ",
           description: "Use relaxation to recharge daily.",
         },
         {
-          title: "Manage Time 🧠",
+          title: "Manage Time ",
           description: "Blend work and life with smart routines.",
         },
         {
-          title: "Tackle Challenges 🌱",
+          title: "Tackle Challenges ",
           description: "Navigate pressures with confidence.",
         },
         {
-          title: "Live Fully 🌟",
+          title: "Live Fully ",
           description: "Thrive in both work and personal life.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to harmonize life with ease. You’ve got this! 💪 #BalanceYourLife",
+        "Counseling empowers you to harmonize life with ease. You’ve got this!  #BalanceYourLife",
       color: "from-green-400 to-green-600",
     },
     // 18
@@ -598,28 +598,28 @@ const Services = () => {
         "Relationships thrive on trust, but misunderstandings or hurts can create distance. Counseling helps you reconnect with love. Here’s how, crafted to spark hope:",
       benefits: [
         {
-          title: "Listen Deeply 🗣",
+          title: "Listen Deeply ",
           description: "Build trust through active listening.",
         },
         {
-          title: "Resolve Conflicts 🌱",
+          title: "Resolve Conflicts ",
           description: "Solve disputes with empathy and care.",
         },
         {
-          title: "Rebuild Trust 🧠",
+          title: "Rebuild Trust ",
           description: "Heal wounds to restore closeness.",
         },
         {
-          title: "Boost Intimacy 🧘",
+          title: "Boost Intimacy ",
           description: "Strengthen emotional and physical bonds.",
         },
         {
-          title: "Grow Together 🌟",
+          title: "Grow Together ",
           description: "Create lasting, loving connections.",
         },
       ],
       whoItsFor:
-        "Counseling empowers you to nurture stronger relationships. You’ve got this! 💪 #StrengthenLove",
+        "Counseling empowers you to nurture stronger relationships. You’ve got this!  #StrengthenLove",
       color: "from-pink-400 to-red-500",
     },
   ];
