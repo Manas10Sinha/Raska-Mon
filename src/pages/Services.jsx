@@ -18,6 +18,8 @@ import {
   FaUserMd,
   FaVideo,
   FaCalendarAlt,
+  FaHandsHelping,
+  FaSeedling,
 } from "react-icons/fa";
 import { motion } from "framer-motion";
 import { GiMeditation, GiHealthNormal, GiSpellBook } from "react-icons/gi";
@@ -40,48 +42,99 @@ const Services = () => {
 
   const services = [
     {
-      icon: <FaComments className="text-2xl" />,
-      title: "Talk Therapy & Counseling",
+      // {<FaComments className="text-2xl" />}
+      icon: <FaHandsHelping className="text-2xl" />,
+      title: " Addictions Counseling: Breaking Free 🌟",
       description:
-        "Personalized one-on-one sessions with licensed therapists to address emotional challenges, life transitions, and personal growth.",
+        "Addiction—whether to substances like alcohol or behaviors like screentime—traps you in a cycle that dims your life’s light. Counseling helps you reclaim control and find freedom. Here’s how, crafted to spark hope: ",
       benefits: [
-        "Evidence-based approaches (CBT, DBT, Psychodynamic)",
-        "Confidential environment to explore feelings",
-        "Personalized treatment plans",
-        "Weekly or bi-weekly sessions",
+        <span>
+          <strong>Uncover Triggers</strong> 🧠: Pinpoint what drives your
+          addiction with support.
+        </span>,
+        <span>
+          <strong>Build Healthy Habits</strong> 🌱: Replace harmful patterns
+          with positive routines.
+        </span>,
+        <span>
+          <strong>Shift Mindset</strong> 🔄: Use CBT to conquer cravings and
+          regain strength.
+        </span>,
+        <span>
+          <strong>Lean on Support</strong> 🧘: Find power in therapy and groups
+          for accountability.
+        </span>,
+        <span>
+          <strong>Live Fully</strong> 🌟: Rediscover joy without dependency’s
+          shadow.
+        </span>,
       ],
       whoItsFor:
-        "Ideal for individuals dealing with depression, life transitions, self-esteem issues, or those seeking personal development",
+        "Counseling empowers you to break free and thrive. You’ve got this! 💪 #BreakTheCycle ",
       color: "from-purple-500 to-pink-500",
     },
     {
-      icon: <FaClock className="text-2xl" />,
-      title: "24/7 Online Therapy Support",
+      // {<FaClock  />}
+      icon: <FaSeedling className="text-2xl" />,
+      title: "ADHD Counseling: Unlocking Potential 🌟",
       description:
-        "Immediate access to professional help through secure video, chat, or phone sessions whenever you need it.",
+        "ADHD can make focus and calm feel out of reach, affecting kids’ school and social life. Counseling turns challenges into strengths. Here’s how, crafted to spark hope:",
       benefits: [
-        "No waiting lists or scheduling conflicts",
-        "Therapy from the comfort of your home",
-        "Emergency sessions available",
-        "Same quality as in-person therapy",
+        <span>
+          <strong>Understand ADHD</strong> 🧠: Learn your child’s unique wiring
+          to guide them.
+        </span>,
+        <span>
+          <strong>Create Structure</strong> 🌱: Build routines to boost focus
+          and ease chaos.
+        </span>,
+        <span>
+          <strong>Celebrate Wins</strong> 🔄: Use positive reinforcement to
+          spark confidence.
+        </span>,
+        <span>
+          <strong>Teach Coping Tools</strong> 🧘: Help kids manage energy with
+          mindfulness.
+        </span>,
+        <span>
+          <strong>Shine Bright</strong> 🌟: Empower your child to thrive their
+          way.
+        </span>,
       ],
+
       whoItsFor:
-        "Perfect for busy professionals, students, parents, or anyone needing flexible access to mental health support",
+        "Counseling helps kids with ADHD soar. You’ve got this! 💪 #ThriveWithADHD",
       color: "from-orange-500 to-red-500",
     },
     {
       icon: <FaClinicMedical className="text-2xl" />,
-      title: "Offline Counseling Centers",
+      title: "Adjustment Disorder Counseling: Embracing Change 🌈",
       description:
-        "Traditional face-to-face therapy in our calming, professionally designed centers across major cities.",
+        "Life’s big shifts—job loss, divorce, or moving—can stir sadness and anxiety. Adjustment disorder feels heavy, but counseling helps you adapt. Here’s how, crafted to spark hope:",
       benefits: [
-        "Private, comfortable therapy rooms",
-        "In-person connection with your therapist",
-        "Access to therapeutic tools and resources",
-        "Discreet locations for complete privacy",
+        <span>
+          <strong>Identify Stressors</strong> 🧠: Uncover what’s overwhelming
+          with guidance.
+        </span>,
+        <span>
+          <strong>Ease the Strain</strong> 🧘: Learn tools to manage emotional
+          turbulence.
+        </span>,
+        <span>
+          <strong>Adapt Confidently</strong> 🌱: Build skills to navigate new
+          realities.
+        </span>,
+        <span>
+          <strong>Find Stability</strong> 🔄: Regain balance through small
+          steps.
+        </span>,
+        <span>
+          <strong>Move Forward</strong> 🌟: Embrace change with renewed hope.
+        </span>,
       ],
+
       whoItsFor:
-        "Those who prefer in-person interaction or need a dedicated space away from their daily environment",
+        "Counseling empowers you to thrive through transitions. You’ve got this! 💪 #AdaptAndGrow",
       color: "from-green-500 to-emerald-500",
     },
     {
@@ -228,7 +281,7 @@ const Services = () => {
               Services
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              At Mood Mantra, we offer a comprehensive range of evidence-based
+              At Raska Mon, we offer a comprehensive range of evidence-based
               therapeutic services tailored to your unique needs. Each program
               is designed by our expert clinicians to provide compassionate,
               effective care.
@@ -290,10 +343,10 @@ const Services = () => {
             </motion.div>
 
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Holistic{" "}
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Healing Services
+                Raska Mon{" "}
               </span>
+              Advantages
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We combine clinical excellence with compassionate care to address

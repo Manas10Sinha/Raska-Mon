@@ -112,16 +112,28 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* <div className="flex items-center justify-between py-4 lg:py-6"> */}
         <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
+          {/* Desktop Logo */}
           <motion.div
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
-            className="flex items-center py-4 -mt-1"
+            className="hidden sm:flex items-center py-4 -mt-1"
           >
             <img
               src="raskamonLogo2.jpg"
               alt="Logo"
-              className="h-[4.2rem] w-auto object-contain transition-all duration-300 lg:h-[4.2rem]"
+              className="h-[3.2rem] w-auto object-contain transition-all duration-300"
+            />
+          </motion.div>
+          {/* Mobile Logo */}
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.2 }}
+            className="sm:hidden flex items-center py-2"
+          >
+            <img
+              src="raskamonLogo2.jpg"
+              alt="Logo"
+              className="h-10 w-auto object-contain transition-all duration-300"
             />
           </motion.div>
 
