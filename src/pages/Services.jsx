@@ -880,13 +880,13 @@ const Services = () => {
               </span>
               Services
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            {/* <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Below are concise, engaging summaries for each of the 18
               counseling services, crafted to inspire and resonate with readers
               on their phones. Each follows the same compact, motivational style
               with deeper emotional insights, replacing “crafted for your phone”
               with “crafted to spark hope.”
-            </p>
+            </p> */}
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
