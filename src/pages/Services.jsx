@@ -1090,7 +1090,7 @@ const Services = () => {
                   viewport={{ once: true }}
                   className="text-lg text-gray-600 mb-8 leading-relaxed"
                 >
-                  At Mood Mantra, we don't believe in one-size-fits-all therapy.
+                  At Raska Mon, we don't believe in one-size-fits-all therapy.
                   Our approach combines:
                 </motion.p>
 
