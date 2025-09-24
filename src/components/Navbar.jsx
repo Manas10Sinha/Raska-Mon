@@ -410,6 +410,7 @@ const Navbar = () => {
                 {[
                   { path: "/", label: "Home" },
                   { path: "/doctors", label: "All Doctors" },
+                  { path: "/services", label: "Services" },
                   { path: "/mood-analysis", label: "Assessment" },
                   { path: "/resources", label: "Resources" },
                   { path: "/about", label: "About" },

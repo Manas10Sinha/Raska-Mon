@@ -126,6 +126,9 @@ const Contact = () => {
               className="flex flex-col sm:flex-row gap-4 mb-12 justify-center"
             >
               <motion.button
+                onClick={() =>
+                  (window.location.href = "mailto:support@raskamon.com")
+                }
                 whileHover={{
                   scale: 1.05,
                   boxShadow: "0 20px 25px -5px rgba(124, 58, 237, 0.3)",
@@ -138,6 +141,7 @@ const Contact = () => {
               </motion.button>
 
               <motion.button
+                onClick={() => (window.location.href = "tel:+919452155154")}
                 whileHover={{
                   scale: 1.05,
                   backgroundColor: "#f8fafc",
