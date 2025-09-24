@@ -79,7 +79,7 @@ const About = () => {
                 <FaHeart className="text-pink-500 text-xl mr-3" />
               </motion.div>
               <span className="text-purple-800 font-semibold">
-                About Mood Mantra
+                About Raska Mon
               </span>
             </motion.div>
 
@@ -103,14 +103,13 @@ const About = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed"
             >
-              Mood Mantra is India's most compassionate mental wellness
-              platform, making professional therapy accessible, affordable, and
+              Raska Mon is India's most compassionate mental wellness platform,
+              making professional therapy accessible, affordable, and
               stigma-free for everyone. We believe in holistic healing that
               nurtures mind, body, and soul.
             </motion.p>
 
             {/* CTA Buttons */}
-           
           </div>
         </div>
 
@@ -182,19 +181,24 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-gray-600 mb-4 leading-relaxed">
-                  Founded in 2020 by psychologist Dr. Priya Sharma and tech
-                  entrepreneur Rohan Mehta, Mood Mantra began as a small
-                  counseling center in Bangalore. After witnessing the
-                  devastating impact of untreated mental health issues in our
-                  communities, we set out to create a solution that would break
-                  down barriers to care.
+                  Founded in 2024 by people who were connected through
+                  friendship and driven by desire to be a solution for the day
+                  to day mood issues of individuals. While Saurabh, Dhirendra
+                  bring their business acumen, Amit is the offiicial "Mental
+                  Health" Manager involved in wide range roles from the
+                  responsiblities of content management, guiding interns to
+                  handling patients. Raska Mon began as a small counseling
+                  platform to be solution for everyone in India. After
+                  witnessing the devastating impact of untreated mental health
+                  issues in our communities, we set out to create a solution
+                  that would break down barriers to care.
                 </p>
                 <p className="text-gray-600 mb-6 leading-relaxed">
-                  Today, we've grown into a national movement with over 200
-                  certified therapists, serving more than 75,000 clients across
-                  India. Our name "Mood Mantra" reflects our philosophy - that
+                  Today, we've grown into a national movement with over 10
+                  certified therapists, serving more than 500 clients across
+                  India. Our name "Raska Mon " reflects our philosophy - that
                   daily mental health practices (mantras) can transform
-                  emotional well-being (mood).
+                  emotional well-being (mood)
                 </p>
                 <div className="bg-gradient-to-r from-purple-100 to-pink-100 p-6 rounded-xl border-l-4 border-purple-500">
                   <p className="text-purple-700 italic font-medium mb-2">
@@ -220,17 +224,17 @@ const About = () => {
                 <div className="grid grid-cols-2 gap-6">
                   {[
                     {
-                      value: "75K+",
+                      value: "2K+",
                       label: "Lives Impacted",
                       color: "from-purple-500 to-pink-500",
                     },
                     {
-                      value: "200+",
+                      value: "10+",
                       label: "Certified Therapists",
                       color: "from-indigo-500 to-blue-500",
                     },
                     {
-                      value: "12",
+                      value: "7+",
                       label: "Regional Languages",
                       color: "from-blue-500 to-cyan-500",
                     },

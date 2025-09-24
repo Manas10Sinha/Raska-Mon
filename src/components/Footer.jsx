@@ -355,7 +355,7 @@ const Footer = () => {
                   <span className="text-purple-200">+91-9452-155-154</span>
                 </motion.div>
 
-                <motion.div
+                {/* <motion.div
                   whileHover={{ x: 5 }}
                   className="flex items-start gap-3 group"
                 >
@@ -369,7 +369,7 @@ const Footer = () => {
                   >
                     moodmantrateam@gmail.com
                   </a>
-                </motion.div>
+                </motion.div> */}
 
                 <motion.div
                   whileHover={{ x: 5 }}
@@ -380,10 +380,10 @@ const Footer = () => {
                     size={18}
                   />
                   <a
-                    href="mailto:tusharwork.001@gmail.com"
+                    href="mailto: support@raskamon.com"
                     className="text-purple-200 hover:text-pink-400 transition-colors duration-300"
                   >
-                    info@moodmantra.com
+                    support@raskamon.com
                   </a>
                 </motion.div>
 

@@ -1,22 +1,22 @@
-import React, { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { assets } from '../assets/assets';
-import { AppContext } from '../context/AppContext';
-import { 
-  FaMapMarkerAlt, 
-  FaPhone, 
-  FaEnvelope, 
-  FaClock, 
-  FaCalendarAlt, 
-  FaUserMd, 
+import React, { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { assets } from "../assets/assets";
+import { AppContext } from "../context/AppContext";
+import {
+  FaMapMarkerAlt,
+  FaPhone,
+  FaEnvelope,
+  FaClock,
+  FaCalendarAlt,
+  FaUserMd,
   FaClipboardCheck,
   FaArrowRight,
   FaPlay,
   FaHeart,
-  FaExclamationTriangle
-} from 'react-icons/fa';
+  FaExclamationTriangle,
+} from "react-icons/fa";
 import { motion } from "framer-motion";
-import BookAppointmentCTA from '../components/BookAppointment';
+import BookAppointmentCTA from "../components/BookAppointment";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -24,9 +24,9 @@ const Contact = () => {
 
   const handleAssessmentClick = () => {
     if (!token) {
-      navigate('/login?type=login');
+      navigate("/login?type=login");
     } else {
-      navigate('/assessments');
+      navigate("/assessments");
     }
   };
 
@@ -89,7 +89,9 @@ const Contact = () => {
               >
                 <FaMapMarkerAlt className="text-purple-500 text-xl mr-3" />
               </motion.div>
-              <span className="text-purple-800 font-semibold">We're Here For You</span>
+              <span className="text-purple-800 font-semibold">
+                We're Here For You
+              </span>
             </motion.div>
 
             {/* Main Heading */}
@@ -101,7 +103,7 @@ const Contact = () => {
             >
               Contact{" "}
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                Mood Mantra
+                Raska Mon
               </span>
             </motion.h1>
 
@@ -112,7 +114,8 @@ const Contact = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed"
             >
-              Reach out to our compassionate team - we're here to support your mental wellness journey every step of the way.
+              Reach out to our compassionate team - we're here to support your
+              mental wellness journey every step of the way.
             </motion.p>
 
             {/* CTA Buttons */}
@@ -179,14 +182,14 @@ const Contact = () => {
 
       {/* Contact Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ staggerChildren: 0.1 }}
           className="flex flex-col lg:flex-row gap-12"
         >
           {/* Left Column - Contact Form & Image */}
-          <motion.div 
+          <motion.div
             className="lg:w-1/2 space-y-8"
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -194,7 +197,7 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
           >
             {/* Contact Form */}
-            <motion.div 
+            <motion.div
               whileHover={{ y: -5 }}
               className="bg-gradient-to-br from-white to-purple-50 rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-purple-100"
             >
@@ -204,32 +207,49 @@ const Contact = () => {
                   <div className="p-4 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 mr-4 flex-shrink-0">
                     <FaEnvelope className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-800">Send Us a Message</h3>
+                  <h3 className="text-2xl font-bold text-gray-800">
+                    Send Us a Message
+                  </h3>
                 </div>
-                
+
                 <form className="space-y-6">
                   <div>
-                    <label htmlFor="name" className="block text-gray-700 font-medium mb-2">Your Name</label>
-                    <input 
-                      type="text" 
-                      id="name" 
+                    <label
+                      htmlFor="name"
+                      className="block text-gray-700 font-medium mb-2"
+                    >
+                      Your Name
+                    </label>
+                    <input
+                      type="text"
+                      id="name"
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all bg-white/80 backdrop-blur-sm"
                       placeholder="Enter your name"
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-gray-700 font-medium mb-2">Email Address</label>
-                    <input 
-                      type="email" 
-                      id="email" 
+                    <label
+                      htmlFor="email"
+                      className="block text-gray-700 font-medium mb-2"
+                    >
+                      Email Address
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all bg-white/80 backdrop-blur-sm"
                       placeholder="Enter your email"
                     />
                   </div>
                   <div>
-                    <label htmlFor="subject" className="block text-gray-700 font-medium mb-2">Subject</label>
-                    <select 
-                      id="subject" 
+                    <label
+                      htmlFor="subject"
+                      className="block text-gray-700 font-medium mb-2"
+                    >
+                      Subject
+                    </label>
+                    <select
+                      id="subject"
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all bg-white/80 backdrop-blur-sm"
                     >
                       <option value="">Select a subject</option>
@@ -240,18 +260,23 @@ const Contact = () => {
                     </select>
                   </div>
                   <div>
-                    <label htmlFor="message" className="block text-gray-700 font-medium mb-2">Your Message</label>
-                    <textarea 
-                      id="message" 
-                      rows="5" 
+                    <label
+                      htmlFor="message"
+                      className="block text-gray-700 font-medium mb-2"
+                    >
+                      Your Message
+                    </label>
+                    <textarea
+                      id="message"
+                      rows="5"
                       className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all bg-white/80 backdrop-blur-sm"
                       placeholder="How can we help you?"
                     ></textarea>
                   </div>
-                  <motion.button 
+                  <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
-                    type="submit" 
+                    type="submit"
                     className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-4 px-6 rounded-xl font-semibold hover:from-purple-700 hover:to-pink-700 transition-all shadow-lg hover:shadow-xl"
                   >
                     Send Message
@@ -261,7 +286,7 @@ const Contact = () => {
             </motion.div>
 
             {/* Location Image */}
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.02 }}
               className="relative overflow-hidden rounded-3xl shadow-lg"
             >
@@ -273,14 +298,16 @@ const Contact = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-8">
                 <div className="text-white">
                   <h3 className="text-2xl font-bold mb-3">Our Healing Space</h3>
-                  <p className="opacity-90 text-lg">A welcoming environment designed for your comfort and peace</p>
+                  <p className="opacity-90 text-lg">
+                    A welcoming environment designed for your comfort and peace
+                  </p>
                 </div>
               </div>
             </motion.div>
           </motion.div>
 
           {/* Right Column - Contact Info */}
-          <motion.div 
+          <motion.div
             className="lg:w-1/2 space-y-8"
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -288,7 +315,7 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
           >
             {/* Contact Info Card */}
-            <motion.div 
+            <motion.div
               whileHover={{ y: -5 }}
               className="bg-gradient-to-br from-white to-indigo-50 rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-indigo-100"
             >
@@ -298,31 +325,37 @@ const Contact = () => {
                   <div className="p-4 rounded-xl bg-gradient-to-br from-indigo-500 to-blue-500 mr-4 flex-shrink-0">
                     <FaMapMarkerAlt className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-800">Our Office</h3>
+                  <h3 className="text-2xl font-bold text-gray-800">
+                    Our Office
+                  </h3>
                 </div>
-                
+
                 <p className="text-gray-600 mb-8 text-lg">
-                  50709 Wilims Station, <br />
-                  Suite 350, Washington, USA
+                  Desqworks, Gurgaon, <br />
+                  Kanakpura Road, Bangalore
                 </p>
-                
+
                 <div className="h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent my-8"></div>
-                
+
                 <div className="flex items-center mb-8">
                   <div className="p-4 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 mr-4 flex-shrink-0">
                     <FaPhone className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-800">Contact Details</h3>
+                  <h3 className="text-2xl font-bold text-gray-800">
+                    Contact Details
+                  </h3>
                 </div>
-                
+
                 <div className="space-y-6">
                   <div className="flex items-start">
                     <div className="bg-gradient-to-br from-purple-100 to-pink-100 p-4 rounded-xl mr-4">
                       <FaPhone className="text-purple-600 text-lg" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 text-lg">General Inquiries</p>
-                      <p className="text-gray-600 text-lg">(415) 555-0132</p>
+                      <p className="font-semibold text-gray-700 text-lg">
+                        General Inquiries
+                      </p>
+                      <p className="text-gray-600 text-lg">9452-155-154</p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -330,8 +363,12 @@ const Contact = () => {
                       <FaEnvelope className="text-purple-600 text-lg" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 text-lg">Email</p>
-                      <p className="text-gray-600 text-lg">support@moodmantra.com</p>
+                      <p className="font-semibold text-gray-700 text-lg">
+                        Email
+                      </p>
+                      <p className="text-gray-600 text-lg">
+                        support@raskamon.com
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-start">
@@ -339,8 +376,10 @@ const Contact = () => {
                       <FaPhone className="text-red-500 text-lg" />
                     </div>
                     <div>
-                      <p className="font-semibold text-gray-700 text-lg">Emergency Support</p>
-                      <p className="text-gray-600 text-lg">(415) 555-0199</p>
+                      <p className="font-semibold text-gray-700 text-lg">
+                        Emergency Support
+                      </p>
+                      <p className="text-gray-600 text-lg">9452-155-154</p>
                     </div>
                   </div>
                 </div>
@@ -348,7 +387,7 @@ const Contact = () => {
             </motion.div>
 
             {/* Hours Card */}
-            <motion.div 
+            <motion.div
               whileHover={{ y: -5 }}
               className="bg-gradient-to-br from-white to-amber-50 rounded-3xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-100"
             >
@@ -358,28 +397,42 @@ const Contact = () => {
                   <div className="p-4 rounded-xl bg-gradient-to-br from-amber-500 to-orange-500 mr-4 flex-shrink-0">
                     <FaClock className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-800">Office Hours</h3>
+                  <h3 className="text-2xl font-bold text-gray-800">
+                    Office Hours
+                  </h3>
                 </div>
-                
+
                 <ul className="space-y-6">
                   <li className="flex justify-between items-center py-4 border-b border-gray-100">
-                    <span className="font-medium text-gray-700 text-lg">Monday - Friday</span>
-                    <span className="bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold">9:00 AM - 7:00 PM</span>
+                    <span className="font-medium text-gray-700 text-lg">
+                      Monday - Friday
+                    </span>
+                    <span className="bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold">
+                      9:00 AM - 7:00 PM
+                    </span>
                   </li>
                   <li className="flex justify-between items-center py-4 border-b border-gray-100">
-                    <span className="font-medium text-gray-700 text-lg">Saturday</span>
-                    <span className="bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold">10:00 AM - 4:00 PM</span>
+                    <span className="font-medium text-gray-700 text-lg">
+                      Saturday
+                    </span>
+                    <span className="bg-gradient-to-r from-purple-100 to-pink-100 text-purple-800 px-4 py-2 rounded-full text-sm font-semibold">
+                      10:00 AM - 4:00 PM
+                    </span>
                   </li>
                   <li className="flex justify-between items-center py-4">
-                    <span className="font-medium text-gray-700 text-lg">Sunday</span>
-                    <span className="bg-gradient-to-r from-red-100 to-pink-100 text-red-600 px-4 py-2 rounded-full text-sm font-semibold">Closed</span>
+                    <span className="font-medium text-gray-700 text-lg">
+                      Sunday
+                    </span>
+                    <span className="bg-gradient-to-r from-red-100 to-pink-100 text-red-600 px-4 py-2 rounded-full text-sm font-semibold">
+                      Closed
+                    </span>
                   </li>
                 </ul>
               </div>
             </motion.div>
 
             {/* Emergency Card */}
-            <motion.div 
+            <motion.div
               whileHover={{ y: -5 }}
               className="bg-gradient-to-r from-purple-600 via-pink-600 to-indigo-700 p-8 rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 text-white relative overflow-hidden"
             >
@@ -393,9 +446,10 @@ const Contact = () => {
                   <h3 className="text-2xl font-bold">Need Immediate Help?</h3>
                 </div>
                 <p className="mb-6 opacity-90 text-lg">
-                  If you're in crisis or experiencing suicidal thoughts, please contact emergency services immediately.
+                  If you're in crisis or experiencing suicidal thoughts, please
+                  contact emergency services immediately.
                 </p>
-                <motion.button 
+                <motion.button
                   whileHover={{ scale: 1.03 }}
                   whileTap={{ scale: 0.98 }}
                   className="w-full bg-white text-purple-600 py-3 px-6 rounded-xl font-semibold hover:bg-gray-100 transition-all shadow-lg"
