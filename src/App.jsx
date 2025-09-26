@@ -39,6 +39,10 @@ import UserDashboard from "./components/UserDashboard/UserDashboard";
 import PrivacyPage from "./pages/PrivacyPage";
 import RefundPage from "./pages/RefundPage";
 import TermsConditionsPage from "./pages/Terms&ConditionsPage";
+import CouplesCounselling from "./pages/CouplesCounselling";
+import FamilyTherapy from "./pages/FamilyTherapy";
+import ChildAdolescentTherapy from "./pages/ChildAdolescentTherapy";
+import IndividualTherapy from "./pages/IndividualTherapy";
 // Lazy load components
 const Doctors = lazy(() => import("./pages/Doctors"));
 
@@ -114,6 +118,17 @@ const App = () => {
               path="/cancellation-policy"
               element={<CancellationPolicy />}
             />
+            {/* {Services Routes} */}
+            <Route
+              path="/CouplesCounselling"
+              element={<CouplesCounselling />}
+            />
+            <Route path="/family-therapy" element={<FamilyTherapy />} />
+            <Route
+              path="/child-adolescent"
+              element={<ChildAdolescentTherapy />}
+            />
+            <Route path="/individual-therapy" element={<IndividualTherapy />} />
 
             {/* Assessment routes */}
             <Route path="/individual" element={<Assessments />} />

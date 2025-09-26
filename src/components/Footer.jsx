@@ -43,7 +43,7 @@ const Footer = () => {
 
   const services = [
     { name: "Individual Therapy", path: "/individual-therapy" },
-    { name: "Couples Counseling", path: "/couples-counselling" },
+    { name: "Couples Counseling", path: "/CouplesCounselling" },
     { name: "Family Therapy", path: "/family-therapy" },
     { name: "Child & Adolescent", path: "/child-adolescent" },
     { name: "Online Sessions", path: "/services" },
