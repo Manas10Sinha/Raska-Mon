@@ -114,9 +114,8 @@ const FamilyTherapy = () => {
   const { token } = useContext(AppContext);
 
   const handleAssessmentClick = () => {
-    // if (!token) navigate("/login?type=login");
-    // else
-    navigate("/assessments?therapy=family");
+    if (!token) navigate("/login?type=login");
+    else navigate("/assessments?therapy=family");
   };
 
   const benefits = [
