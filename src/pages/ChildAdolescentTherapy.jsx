@@ -71,8 +71,9 @@ const ChildAdolescentTherapy = () => {
   const { token } = useContext(AppContext);
 
   const handleAssessmentClick = () => {
-    if (!token) navigate("/login?type=login");
-    else navigate("/assessments");
+    // if (!token) navigate("/login?type=login");
+    // else
+    navigate("/assessments?therapy=child");
   };
 
   const benefits = [

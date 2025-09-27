@@ -131,10 +131,8 @@ const App = () => {
             <Route path="/individual-therapy" element={<IndividualTherapy />} />
 
             {/* Assessment routes */}
-            <Route path="/individual" element={<Assessments />} />
-            <Route path="/couples" element={<Assessments />} />
-            <Route path="/family" element={<Assessments />} />
-            <Route path="/child" element={<Assessments />} />
+            <Route path="/assessments" element={<Assessments />} />
+
             <Route path="/assessment/:id/:therapy" element={<Assessment />} />
             <Route path="/my-assessments" element={<MyAssessments />} />
             <Route
