@@ -43,14 +43,15 @@ const WelcomeMessage = () => {
   ];
 
   return (
-    <section className="py-20 bg-gradient-to-br from-white to-purple-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    // <section className="py-20 bg-gradient-to-br from-white to-purple-200">
+    <section>
+      <div className="max-w-7xl mx-auto px-4 sm:px-2 lg:px-3">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-purple-100 relative overflow-hidden"
+          // className="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-purple-100 relative overflow-hidden"
         >
           {/* Background Elements */}
           <div className="absolute inset-0 overflow-hidden">

@@ -132,13 +132,13 @@ function CreateAccount() {
 
   return (
     <section className="py-20 bg-gradient-to-br from-purple-50 to-indigo-100">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-2 lg:px-3">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-purple-100"
+          // className="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-purple-100"
         >
           {/* Header */}
           <motion.div
@@ -215,33 +215,33 @@ function CreateAccount() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
             viewport={{ once: true }}
-            className="bg-gradient-to-r from-amber-50 to-yellow-50 rounded-3xl p-8 sm:p-10 mb-16 border border-amber-100"
+            className="bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl sm:rounded-3xl p-4 sm:p-6 lg:p-8 xl:p-10 mb-12 sm:mb-16 border border-amber-100 mx-2 sm:mx-0"
           >
-            <div className="text-center mb-8">
+            <div className="text-center mb-6 sm:mb-8">
               <motion.div
                 initial={{ scale: 0.9 }}
                 whileInView={{ scale: 1 }}
                 viewport={{ once: true }}
-                className="inline-flex items-center bg-white/80 px-6 py-3 rounded-full mb-6 shadow-lg"
+                className="inline-flex items-center bg-white/80 px-4 py-2 sm:px-6 sm:py-3 rounded-full mb-4 sm:mb-6 shadow-lg"
               >
-                <GiBrain className="text-purple-600 text-2xl mr-3" />
-                <span className="text-purple-800 text-xl font-bold">
+                <GiBrain className="text-purple-600 text-xl sm:text-2xl mr-2 sm:mr-3" />
+                <span className="text-purple-800 text-base sm:text-lg lg:text-xl font-bold">
                   Who Can Benefit?
                 </span>
               </motion.div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4">
                 We Support{" "}
                 <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                   Diverse Needs
                 </span>
               </h2>
-              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-2 sm:px-0">
                 Our services are designed to help individuals from all walks of
                 life.
               </p>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
               {benefits.map((benefit, index) => (
                 <motion.div
                   key={index}
@@ -250,12 +250,14 @@ function CreateAccount() {
                   viewport={{ once: true }}
                   transition={{ delay: 0.7 + index * 0.1, duration: 0.5 }}
                   whileHover={{ y: -5 }}
-                  className="bg-white/80 rounded-2xl p-4 flex items-start gap-3 shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-100"
+                  className="bg-white/80 rounded-xl sm:rounded-2xl p-3 sm:p-4 flex items-start gap-2 sm:gap-3 shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-100"
                 >
-                  <div className="p-2 rounded-lg bg-purple-100 mt-1">
-                    {benefit.icon}
+                  <div className="p-1.5 sm:p-2 rounded-lg bg-purple-100 mt-0.5 sm:mt-1 flex-shrink-0">
+                    {React.cloneElement(benefit.icon, {
+                      className: "text-sm sm:text-base",
+                    })}
                   </div>
-                  <p className="text-gray-700 text-sm leading-relaxed">
+                  <p className="text-gray-700 text-xs sm:text-sm leading-relaxed">
                     {benefit.text}
                   </p>
                 </motion.div>
